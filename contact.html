@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Main</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+
+</head>
+<body>
+     <div class="row">
+       <div class="col-2">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark align-items-start" style="Height: 100%">
+              <div class="container-fluid flex-column">
+                <a class="navbar-brand" href="#">
+                  <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg"
+                       alt="Logo" width="30" height="24" class="d-inline-block align-text-top">Меню</a>
+                    <nav class="nav flex-column">
+                      <a class="nav-link" href="main.html">Главная </a>
+                      <a class="nav-link" href="category.html">Категории</a>
+                      <a class="nav-link" href="catalog.html">Заказы</a>
+                      <a class="nav-link" href="contact.html">Контакты</a>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle sticky-bottom" href="#"
+                                   role="button" data-bs-toggle="dropdown" aria-expanded="false">Пользователь</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Профиль</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Выход</a></li>
+                            </ul>
+                        </li>
+              </div>
+            </nav>
+        </div>
+        <div class="col-10">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center mb-5"> Контакты </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-5">
+                    <div class="card">
+                        <div class="mb-3">
+                            <label class="form-label">Имя</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                          <label class="form-label">Сообщение</label>
+                          <div class="input-group has-validation">
+                              <span class="input-group-text" id="inputGroupPrepend">@</span>
+                              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                              <div class="invalid-feedback">
+                                Please choose a username.
+                              </div>
+                          </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Сообщение</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary col-3" aria-disabled="true">Отправить</button>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-4">
+                    <h2 class="text-center"> Наши контакты.</h2>
+                    <p>
+                        Тут текст с шаблона.... Очень много текста с шаблона. Вставлю сказку для заполнонения.
+                        Жила-была на белом свете мохнатая кошка, которую постоянно изводила кусачая мошка.
+                        Однако поймать и наказать маленькую проказницу у кошки никак не получалось.
+                        Однажды родственница тигра увидела, как ее квартирная хозяйка смотрит по
+                        железному ящику движущиеся картинки про кота Тома и мышь Джерри.
+                        Кошка устроилась в ногах у хозяйки и сделала вид, что ей совсем не интересно!
+                        Однако она внимательно просмотрела всё.
+                        Потом хитрая кошка придумала одну очень хитрую хитрость.
+                        Она предложила мошке стать друзьями.
+                        Та, подумав, согласилась и поселилась у кошки за ухом.
+                        Они проводили все время вместе и были очень довольны!
+                    </p>
+                    <p>
+                        Ещё строчка.
+                    </p>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+     </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js">
+</script>
+</body>
+</html>
